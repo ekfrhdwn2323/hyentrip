@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hyentrip.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hye-yeon's trip"
+            android:textSize="25sp"
+            android:id="@+id/textView8"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="49dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:text="1. Gangneung in Korea"
+            android:textSize="22sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="26dp"
+            android:src="@drawable/g1" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/g2"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:text="here is Gangneung. famous places are Ojukheon House, Gyeongpodae Pavilion and Jungang Market. So I went there.    "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="33dp"
+            android:text="2. Hwaseong Temporary Palace in Korea"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/h1"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/h2"
+            android:id="@+id/imageView4"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_alignEnd="@+id/textView7" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="here is Hwaseong Temporary Palace in Suwon. It is UNESCO World Heritage Sites. In 1789 it was built.  "
+            android:textSize="15sp"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Jeonju Hanok Village in Korea"
+            android:textSize="22sp"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/j1"
+            android:id="@+id/imageView8"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/j2"
+            android:layout_below="@+id/imageView8"
+            android:layout_alignRight="@+id/textView10"
+            android:layout_alignEnd="@+id/textView10"
+            android:id="@+id/imageView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="here is Jeonju Hanok Village in Jeonju. Jeonju has a unique history of a thousand of royal culture. The Jeonju Hanok Village District offers all the excitement of traditional cultural living with over 900 traditional Hanoks and all the exhilaration of nature and sightseeing just minutes from downtown. "
+            android:textSize="15sp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Anapji Pond in Korea"
+            android:textSize="22sp"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="24dp" />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/k1"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView6" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/k2"
+            android:layout_below="@+id/imageView6"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4"
+            android:id="@+id/imageView7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="here is Anapji Pond in Gyeongju.It was built in the era of the United Shilla Dynasty. This is the place where many tourists visit for the great night views.  "
+            android:textSize="15sp"
+            android:layout_below="@+id/imageView7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So, Where do you like to go?"
+            android:textSize="22sp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView12" />
+
+        <CheckBox android:id="@+id/Gangneung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="1. Gangneung in Korea"
+            android:layout_below="@+id/textView12"
+            android:layout_alignLeft="@+id/Suwon"
+            android:layout_alignStart="@+id/Suwon" />
+
+        <CheckBox android:id="@+id/Suwon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Hwaseong Temporary Palace in Korea"
+            android:layout_below="@+id/Gangneung"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12" />
+
+        <CheckBox android:id="@+id/Jeonju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Jeonju Hanok Village in Korea"
+            android:layout_below="@+id/Suwon"
+            android:layout_alignLeft="@+id/Suwon"
+            android:layout_alignStart="@+id/Suwon" />
+
+
+        <CheckBox android:id="@+id/Anapji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Anapji Pond in Korea"
+            android:layout_below="@+id/Jeonju"
+            android:layout_alignLeft="@+id/Jeonju"
+            android:layout_alignStart="@+id/Jeonju" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENROLL"
+            android:layout_below="@+id/Anapji"
+            android:layout_alignLeft="@+id/imageView4"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2" />
+        \
+    </RelativeLayout>
+</ScrollView>
